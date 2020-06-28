@@ -1,0 +1,288 @@
+<!-- صفحة حول -->
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/style2.css">
+<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+      body, html {
+    height: 100%;
+    margin:0;
+
+  }
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+  .bg {
+    /* The image used */
+    background-image: url("294082.jpg");
+    width:1460px;
+    /* Full height */
+    height: 400px; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  max-width: 900px; /* Max width */
+}
+
+.heading {
+    margin-right: 20px;
+  font-size: 25px;
+  /* margin-right: 25px; */
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #ebebeb;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+</style>
+</head>
+<body>
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">الصفحة الرئيسية</a>
+    <a href="page.html"> حول المركز العلمي</a>
+    <a href="page1.html">الاكواريم</a>
+    <a href="page3.html">افلام اي ماكس</a>
+  </div>
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+  <!-- k -->
+    <div class="bg"></div>
+
+<h2 style="color: rgb(30, 0, 114); font-family: 'Courier New', Courier, monospace; margin-right: 20px;">حول المركز العلمي </h2>
+
+<div class="tab" style="padding-bottom: 80px;">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">قصة المركز العلمي</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">الرؤية والرسالة والاهداف</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">أعضاء الادارة </button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3 style="color: rgb(75, 0, 0); font-family: 'Courier New', Courier, monospace; ">قصة المركز العلمي</h3>
+  <p>جاء إنشاء المركز العلمي امتثالاً لرغبة سامية لأمير دولة الكويت الراحل رئيس مجلس إدارة مؤسسة الكويت للتقدم العلمي الشيخ جابر الأحمد الجابر الصباح طيب الله ثراه ، حيث قامت المؤسسة بتنفيذ مشروع فريد من نوعه يخدم العلم والبيئة تجسّد في المركز العلمي ، الذي وضعت لبنة الأساس فيه وانطلقت أعماله الإنشائية عام 1996 ليكون هديته رحمه الله لشعب الكويت والقاطنين على أراضيها. المركز العلمي إنجاز حضاري وصرح علمي تضيق أروقته وتتسع بالمعلومة وتصاميم هندسية رائعة تعكس روعة المعمار الإسلامي و جداريات تراثية منسوجة من قطع السيراميك التي تتناغم لتكمل قصصاً احتضنتها صحراء الكويت وأسوارها. يضم المركز العلمي ثلاثة مرافق رئيسية هي الأكواريوم و قاعة الاستكشاف و صالة عرض آي ماكس ؛ الى جانب خدمات مساندة مثل محل الهدايا ومحلات المشروبات الباردة والساخنة والمطاعم .</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3 style="color: rgb(75, 0, 0); font-family: 'Courier New', Courier, monospace; ">الرؤية:</h3>
+<p>
+    أن يكون مركزاً مرموقاً وموثوقاً به في الشرق الأوسط  يوفر مناخاً للتعليم الترفيهي للعلوم ويعزز أهمية التوعية البيئية لجميع الأعمار.
+</p>
+   <h3 style="color: rgb(75, 0, 0); font-family: 'Courier New', Courier, monospace; "> الرسالة:</h3>
+   <p>
+    تبسيط العلوم ونشر الوعي البيئي في جو من التفاعل الترفيهي.
+</p>
+<h3 style="color: rgb(75, 0, 0); font-family: 'Courier New', Courier, monospace; ">  الأهداف :</h3>  
+    <p>
+     المساهمة في تبسيط العلوم والمعارف العامة لجميع المراحل التعليمية من خلال المرافق الرئيسية والبرامج.
+ 
+    المساهمة في نشر الوعي البيئي بين أفراد المجتمع.
+    
+    جذب الطلبة والجمهور من مختلف الشرائح العمرية للزيارة وتحفيزهم على تكرارها.
+    
+    التطوير المستمر للمرافق الرئيسية والخدمات المساندة بما يضمن تنفيذ البرامج والأنشطة بكفاءة.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3 style="color: rgb(75, 0, 0); font-family: 'Courier New', Courier, monospace;">اعضاء الادارة</h3>
+  <p>السيد / سامي فهد الرشيد
+    رئيس مجلس الإدارة
+    </p>
+    <p>
+    السيد / عبدالمجيد حاجي الشطي
+    نائب رئيس مجلس الإدارة
+</p>
+<p>
+    الدكتور / سلام أحمد العبلاني
+    عضو مجلس الإدارة
+</p>
+<p>
+    الدكتور / بسام عبدالكريم الفيلي
+    عضو مجلس الإدارة
+</p>
+<p>
+    الدكتور / جاسم فيصل الربيعان
+    عضو مجلس الإدارة
+</p>
+<p>
+    الدكتورة / فتوح عبدالعزيز الرقم
+    عضو مجلس الإدارة
+</p>
+<p>
+    الدكتور / حمد علي ياسين
+    عضو مجلس الإدارة</p>
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<span style="margin-right: 20px; ">
+<span class="heading">تقييم المستخدم </span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>4.1 متوسط بناءً على 254 تقييمًا.
+</p>
+<hr style="border:3px solid #f1f1f1">
+
+<div class="row">
+  <div class="side">
+    <div>5نجوم    </div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div style="margin-right: 20px;">150</div>
+  </div>
+  <div class="side">
+    <div>4نجوم   </div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div style="margin-right: 20px;">63</div>
+  </div>
+  <div class="side">
+    <div>3نجوم   </div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div style="margin-right: 20px;">15</div>
+  </div>
+  <div class="side">
+    <div> نجمتين</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div style="margin-right: 20px;">6</div>
+  </div>
+  <div class="side">
+    <div>نجمة واحده    </div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div style="margin-right: 20px;">20</div>
+  </div>
+</div>
+</span>
+
+     <a href="index.html">
+        <button class="button"><span>الرجوع </span></button>
+        </a>
+        
+
+
+
+    </body>
+</html> 
